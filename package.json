@@ -4,7 +4,7 @@
   "description": "",
   "main": "k6.js",
   "scripts": {
-    "start": "node test-services/single.js",
+    "start": "node test-services/cluster.js",
     "test": "./k6 run k6-scripts/script.js"
   },
   "repository": {
