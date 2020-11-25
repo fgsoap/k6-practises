@@ -31,5 +31,4 @@ jobs:
     - run: npm run build --if-present
     - name: k6 testing
       run: |
-        npm start
-        npm test
+        npm start & npm test
