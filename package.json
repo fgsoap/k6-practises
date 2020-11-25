@@ -5,7 +5,7 @@
   "main": "k6.js",
   "scripts": {
     "start": "node test-services/single.js",
-    "test": "k6 run k6-scripts/check.js"
+    "test": "./k6 run k6-scripts/check.js"
   },
   "repository": {
     "type": "git",
