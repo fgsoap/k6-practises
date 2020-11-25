@@ -29,6 +29,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
-    - run: |
+    - name: k6 testing
+      run: |
         npm start&
         npm test
