@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/fgsoap/k6-practises/issues"
   },
-  "homepage": "https://github.com/fgsoap/k6-practises#readme",
-  "dependencies": {
-    "har-to-k6": "^0.5.0"
-  }
+  "homepage": "https://github.com/fgsoap/k6-practises#readme"
 }
