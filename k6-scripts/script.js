@@ -10,7 +10,7 @@ export let options = {
 };
 
 export default function () {
-  let res = http.get("http://localhost:8000");
+  let res = http.get("http://127.0.0.1:8000");
   check(res, { "status was 200": (r) => r.status == 200 });
   sleep(1);
 }
