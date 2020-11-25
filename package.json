@@ -4,7 +4,8 @@
   "description": "",
   "main": "k6.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node test-services/single.js",
+    "test": "k6 run k6-scripts/check.js"
   },
   "repository": {
     "type": "git",
