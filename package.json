@@ -4,7 +4,7 @@
   "description": "",
   "main": "k6.js",
   "scripts": {
-    "start": "npx wait-on http://127.0.0.1:8000",
+    "start": "node test-services/cluster.js & npx wait-on http://127.0.0.1:8000",
     "test": "./k6 run k6-scripts/script.js"
   },
   "repository": {
