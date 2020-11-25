@@ -4,7 +4,7 @@
   "description": "",
   "main": "k6.js",
   "scripts": {
-    "start": "node test-services/cluster.js",
+    "start": "npx wait-on http://127.0.0.1:8000",
     "test": "./k6 run k6-scripts/script.js"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fgsoap/k6-practises/issues"
   },
-  "homepage": "https://github.com/fgsoap/k6-practises#readme"
+  "homepage": "https://github.com/fgsoap/k6-practises#readme",
+  "dependencies": {
+    "wait-on": "^5.2.0"
+  }
 }
